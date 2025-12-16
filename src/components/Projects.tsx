@@ -18,7 +18,7 @@ const PROJECTS: Project[] = [
         description: "A comprehensive dashboard for financial analytics using Next.js and Tailwind.",
         tags: ["Next.js", "Next Auth", "MongoDB", "Tailwind CSS", "bcryptjs", "zod"],
         link: "https://github.com",
-        image: "/images/tma1.jpg"
+        image: "/images/tma1.JPG"
     },
     {
         id: 2,
@@ -26,7 +26,7 @@ const PROJECTS: Project[] = [
         description: "Modern e-commerce platform with headless architecture and Stripe integration.",
         tags: ["React", "Stripe", "E-commerce"],
         link: "https://github.com",
-        image: "/images/wa1.jpg"
+        image: "/images/wa1.JPG"
     },
     {
         id: 3,
