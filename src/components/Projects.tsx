@@ -30,11 +30,11 @@ const PROJECTS: Project[] = [
     },
     {
         id: 3,
-        title: "AI Chatbot",
+        title: "Blog Site",
         description: "Intelligent conversational agent powered by LLMs for customer support.",
         tags: ["AI", "Python", "API"],
         link: "https://github.com",
-        image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2370&auto=format&fit=crop"
+        image: "/images/blg1.png"
     },
     {
         id: 4,
