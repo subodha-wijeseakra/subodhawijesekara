@@ -38,11 +38,11 @@ const PROJECTS: Project[] = [
     },
     {
         id: 4,
-        title: "TaskFlow",
+        title: "Weather application",
         description: "A collaborative project management tool for remote teams with real-time updates.",
         tags: ["React", "Firebase", "Productivity"],
         link: "https://github.com",
-        image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2372&auto=format&fit=crop"
+        image: "/images/we1.png"
     },
     {
         id: 5,
