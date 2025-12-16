@@ -14,7 +14,7 @@ interface Project {
 const PROJECTS: Project[] = [
     {
         id: 1,
-        title: "Project Alpha",
+        title: "Task Manager",
         description: "A comprehensive dashboard for financial analytics using Next.js and Tailwind.",
         tags: ["Next.js", "Next Auth", "MongoDB", "Tailwind CSS", "bcryptjs", "zod"],
         link: "https://github.com",
