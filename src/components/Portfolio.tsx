@@ -9,7 +9,7 @@ import PortfolioModal from "./PortfolioModal";
 const PORTFOLIO_ITEMS = [
     {
         id: 1,
-        title: "UI Design System",
+        title: "UI & UX Design",
         image: "https://images.unsplash.com/photo-1616469829581-73993eb86b02?q=80&w=2370&auto=format&fit=crop",
         gallery: [
             "https://images.unsplash.com/photo-1616469829581-73993eb86b02?q=80&w=2370&auto=format&fit=crop",
