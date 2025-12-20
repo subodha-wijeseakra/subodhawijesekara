@@ -15,25 +15,25 @@ interface Photo {
 const PHOTOS: Photo[] = [
     {
         id: 1,
-        src: "/images/l1.png", // Forest/Nature
+        src: "/images/l4.png", // Forest/Nature
         title: "Exploring Nature",
         description: "Finding peace in the deep woods."
     },
     {
         id: 2,
-        src: "/images/l2.png", // Travel/Adventure
+        src: "/images/l1.png", // Travel/Adventure
         title: "Mountain Hiking",
         description: "Reaching new heights and breathtaking views."
     },
     {
         id: 3,
-        src: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=3302&auto=format&fit=crop", // Photography/Camera
+        src: "/images/l2.png", // Photography/Camera
         title: "Capturing Moments",
         description: "Freezing time through the lens."
     },
     {
         id: 4,
-        src: "https://images.unsplash.com/photo-1531297461136-82lwDe4c4b5?q=80&w=2670&auto=format&fit=crop", // Tech/Workspace
+        src: "/images/l3.png", // Tech/Workspace
         title: "My Workspace",
         description: "Where ideas come to life."
     }
