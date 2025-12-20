@@ -24,9 +24,9 @@ const PROJECTS: Project[] = [
         id: 2,
         title: "Chat look",
         description: "Smart chat application with secured authentication",
-        tags: ["React", "Stripe", "E-commerce"],
+        tags: ["Next.js", "Socket.io", "Tailwind CSS", "bcryptjs", "zod"],
         link: "https://github.com/subodha-wijeseakra/chat_look",
-        image: "/images/wa1.png"
+        image: "/images/cht.png"
     },
     {
         id: 3,
