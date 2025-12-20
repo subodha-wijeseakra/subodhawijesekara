@@ -22,28 +22,26 @@ const PORTFOLIO_ITEMS = [
         title: "Mobile ready solutions",
         image: "/images/ma1.png",
         gallery: [
-            "/images/ma1.png",
             "/images/ma2.png",
             "/images/ma3.png"
         ]
     },
     {
         id: 3,
-        title: "Weather application",
+        title: "Essentials",
         image: "/images/wea1.png",
         gallery: [
-            "/images/wea1.png",
             "/images/wea2.png",
             "/images/wea3.png"
         ]
     },
     {
         id: 4,
-        title: "Marketing Assets",
-        image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2370&auto=format&fit=crop",
+        title: "Standards",
+        image: "/images/tma1.png",
         gallery: [
-            "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2370&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2274&auto=format&fit=crop"
+            "/images/tm2.png",
+            "/images/tm3.png"
         ]
     },
     {
