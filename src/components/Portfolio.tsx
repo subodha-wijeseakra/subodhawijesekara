@@ -40,8 +40,8 @@ const PORTFOLIO_ITEMS = [
         title: "Following Standards",
         image: "/images/tma1.png",
         gallery: [
-            "/images/tm2.png",
-            "/images/tm3.png"
+            "/images/tma2.png",
+            "/images/tma3.png"
         ]
     },
     {
