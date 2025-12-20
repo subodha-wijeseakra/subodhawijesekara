@@ -14,11 +14,11 @@ interface Project {
 const PROJECTS: Project[] = [
     {
         id: 1,
-        title: "Task Manager",
-        description: "A comprehensive dashboard for financial analytics using Next.js and Tailwind.",
-        tags: ["Next.js", "Next Auth", "MongoDB", "Tailwind CSS", "bcryptjs", "zod"],
-        link: "https://github.com",
-        image: "/images/tma1.png"
+        title: "Chat Me AI",
+        description: "Smart AI chat application",
+        tags: ["Next.js", "Next Auth", "Gemini API", "Tailwind CSS", "bcryptjs"],
+        link: "https://github.com/subodha-wijeseakra/chat_me_ai",
+        image: "/images/atp3.png"
     },
     {
         id: 2,
