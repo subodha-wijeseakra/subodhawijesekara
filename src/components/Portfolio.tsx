@@ -29,11 +29,12 @@ const PORTFOLIO_ITEMS = [
     },
     {
         id: 3,
-        title: "Brand Identity",
-        image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2400&auto=format&fit=crop",
+        title: "Weather application",
+        image: "/images/wea1.png",
         gallery: [
-            "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2400&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1600508774662-721440536881?q=80&w=2370&auto=format&fit=crop"
+            "/images/wea1.png",
+            "/images/wea2.png",
+            "/images/wea3.png"
         ]
     },
     {
