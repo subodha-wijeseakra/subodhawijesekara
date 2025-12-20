@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Image from "next/image";
 import { X } from "lucide-react";
 import styles from "./PortfolioModal.module.css";
@@ -33,7 +34,17 @@ export default function PortfolioModal({ isOpen, onClose, item }: PortfolioModal
     // Use gallery if available, otherwise just show main image x 3 for demo
     const images = item.gallery || [item.image, item.image, item.image];
 
-    return (
+    // Use Portal to escape parent stacking contexts
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+        return () => setMounted(false);
+    }, []);
+
+    if (!mounted) return null;
+
+    return createPortal(
         <div className={styles.overlay} onClick={onClose}>
             <button className={styles.closeButton} onClick={onClose}>
                 <X size={24} />
@@ -59,6 +70,7 @@ export default function PortfolioModal({ isOpen, onClose, item }: PortfolioModal
                     ))}
                 </div>
             </div>
-        </div>
+        </div>,
+        document.body
     );
 }

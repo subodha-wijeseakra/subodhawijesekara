@@ -9,26 +9,32 @@
     z-index: 10000;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    overflow-y: auto;
+    /* align-items: flex-start; Removed to allow full height flex */
+    overflow: hidden;
+    /* Disable body/overlay scroll */
     animation: fadeIn 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .content {
     width: 100%;
     max-width: 1000px;
-    padding: 6rem 2rem 4rem;
+    height: 100%;
+    /* Full height to contain scroll */
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
     animation: slideUp 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .header {
     text-align: center;
     color: var(--foreground);
-    margin-bottom: 2rem;
+    padding: 6rem 2rem 2rem;
+    /* Fixed header padding */
+    flex-shrink: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    /* Optional fade */
+    z-index: 10;
 }
 
 .title {
@@ -47,6 +53,13 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    overflow-y: auto;
+    /* Scroll only the gallery */
+    padding: 0 2rem 6rem;
+    /* Bottom padding for scroll space */
+    width: 100%;
+    /* Hide scrollbar for clean look, or style it */
+    scrollbar-width: thin;
 }
 
 .imageWrapper {
