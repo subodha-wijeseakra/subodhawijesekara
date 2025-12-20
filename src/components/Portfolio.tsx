@@ -10,7 +10,7 @@ const PORTFOLIO_ITEMS = [
     {
         id: 1,
         title: "UI & UX Design",
-        image: "https://images.unsplash.com/photo-1616469829581-73993eb86b02?q=80&w=2370&auto=format&fit=crop",
+        image: "/images/uiux1.png",
         gallery: [
             "https://images.unsplash.com/photo-1616469829581-73993eb86b02?q=80&w=2370&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?q=80&w=2370&auto=format&fit=crop",
