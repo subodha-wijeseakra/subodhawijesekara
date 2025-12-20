@@ -55,11 +55,11 @@ const PORTFOLIO_ITEMS = [
     },
     {
         id: 6,
-        title: "Social Media Kit",
-        image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=2274&auto=format&fit=crop",
+        title: "Always on top",
+        image: "/images/atp1.png",
         gallery: [
-            "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=2274&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1611926653458-09294b3019dc?q=80&w=2370&auto=format&fit=crop"
+            "/images/atp2.png",
+            "/images/atp3.png"
         ]
     },
 ];
