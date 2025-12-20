@@ -17,11 +17,11 @@ interface Article {
 const ARTICLES: Article[] = [
     {
         id: 1,
-        title: "Understanding React Server Components",
-        excerpt: "A deep dive into how RSCs change the way we build Next.js apps.",
-        date: "Jan 2025",
-        content: "React Server Components (RSC) allow developers to write components that are rendered exclusively on the server. This reduces the amount of JavaScript sent to the client, leading to faster initial page loads and improved SEO.\n\nWith RSC, we can directly access backend resources like databases or filesystems without needing an API layer. This simplifies data fetching and co-locates logic with UI. Combining Server Components with Client Components for interactivity gives us the best of both worlds.",
-        mediumLink: "https://medium.com/"
+        title: "The Future of Full-Stack Development in the Age of AI",
+        excerpt: "AI is no longer a separate domain reserved for data scientists. It is rapidly becoming an integral part of the modern software development lifecycle.",
+        date: "Dec 2024",
+        content: "Full-stack development has always evolved alongside new tools, frameworks, and paradigms. From monolithic applications to microservices, and from simple HTML pages to highly interactive web platforms, the role of a full-stack developer has continuously expanded. Today, artificial intelligence (AI) is driving the next major shift reshaping how applications are built, tested, deployed, and maintained.",
+        mediumLink: "https://medium.com/@wijesekararsc/why-next-js-is-becoming-the-go-to-framework-for-modern-web-applications-c762640ff440"
     },
     {
         id: 2,
