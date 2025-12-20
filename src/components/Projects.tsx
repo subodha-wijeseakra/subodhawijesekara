@@ -41,8 +41,8 @@ const PROJECTS: Project[] = [
         title: "Task manager",
         description: "Smart task management application",
         tags: ["Next.js", "Tailwind CSS", "TypeScript", "zod", "bcryptjs", "Next Auth", "MongoDB"],
-        link: "https://github.com",
-        image: "/images/we1.png"
+        link: "https://github.com/subodha-wijeseakra/task_manager",
+        image: "/images/tma1.png"
     },
     {
         id: 5,
