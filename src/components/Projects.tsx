@@ -24,7 +24,7 @@ const PROJECTS: Project[] = [
         id: 2,
         title: "Chat look",
         description: "Smart chat application with secured authentication",
-        tags: ["Next.js", "Socket.io", "Tailwind CSS", "bcryptjs", "zod"],
+        tags: ["Next.js", "Socket.io", "Tailwind CSS", "bcryptjs", "zod", "MongoDB"],
         link: "https://github.com/subodha-wijeseakra/chat_look",
         image: "/images/cht.png"
     },
@@ -38,9 +38,9 @@ const PROJECTS: Project[] = [
     },
     {
         id: 4,
-        title: "Weather application",
-        description: "A collaborative project management tool for remote teams with real-time updates.",
-        tags: ["React", "Firebase", "Productivity"],
+        title: "Task manager",
+        description: "Smart task management application",
+        tags: ["Next.js", "Tailwind CSS", "TypeScript", "zod", "bcryptjs", "Next Auth", "MongoDB"],
         link: "https://github.com",
         image: "/images/we1.png"
     },
