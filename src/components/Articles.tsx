@@ -18,7 +18,7 @@ const ARTICLES: Article[] = [
     {
         id: 1,
         title: "The Future of Full-Stack Development in the Age of AI",
-        excerpt: "AI is no longer a separate domain reserved for data scientists. It is rapidly becoming an integral part of the modern software development lifecycle.",
+        excerpt: "AI is no longer a separate domain reserved for data scientists.",
         date: "Dec 2024",
         content: "Full-stack development has always evolved alongside new tools, frameworks, and paradigms. From monolithic applications to microservices, and from simple HTML pages to highly interactive web platforms, the role of a full-stack developer has continuously expanded. Today, artificial intelligence (AI) is driving the next major shift reshaping how applications are built, tested, deployed, and maintained.",
         mediumLink: "https://medium.com/@wijesekararsc/why-next-js-is-becoming-the-go-to-framework-for-modern-web-applications-c762640ff440"
@@ -26,7 +26,7 @@ const ARTICLES: Article[] = [
     {
         id: 2,
         title: "Why Next.js Is Becoming the Go To Framework",
-        excerpt: "In today’s fast-moving web ecosystem, developers and businesses are no longer satisfied with just “working” applications. Performance, SEO, scalability, and developer experience have become critical success factors.",
+        excerpt: "In today’s fast-moving web ecosystem, developers and businesses are no longer satisfied with just “working” applications.",
         date: "Dec 2025",
         content: "One of the biggest reasons behind Next.js’s popularity is its focus on performance. Features like automatic code splitting, image optimization, and incremental static regeneration (ISR) ensure that users receive fast-loading pages without extra configuration. Pages load only the JavaScript they need, reducing bundle size and improving overall speed — especially important for mobile users.",
         mediumLink: "https://medium.com/@wijesekararsc/why-next-js-is-becoming-the-go-to-framework-for-modern-web-applications-c762640ff440"
