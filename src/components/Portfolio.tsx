@@ -28,7 +28,7 @@ const PORTFOLIO_ITEMS = [
     },
     {
         id: 3,
-        title: "Essentials",
+        title: "Make Essentials",
         image: "/images/wea1.png",
         gallery: [
             "/images/wea2.png",
@@ -37,7 +37,7 @@ const PORTFOLIO_ITEMS = [
     },
     {
         id: 4,
-        title: "Standards",
+        title: "Following Standards",
         image: "/images/tma1.png",
         gallery: [
             "/images/tm2.png",
