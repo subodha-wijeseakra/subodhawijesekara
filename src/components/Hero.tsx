@@ -29,7 +29,7 @@ export default function Hero() {
                     <a href="https://www.linkedin.com/in/rscwijesekara/" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="LinkedIn">
                         <Linkedin size={22} />
                     </a>
-                    <a href="https://github.com/subodha-wijeseakra" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="GitHub">
+                    <a href="https://github.com/subodha-wijesekara" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="GitHub">
                         <Github size={22} />
                     </a>
                     <a href="https://web.facebook.com/wijesekararsc" target="_blank" rel="noopener noreferrer" className={styles.socialIcon} aria-label="Facebook">
